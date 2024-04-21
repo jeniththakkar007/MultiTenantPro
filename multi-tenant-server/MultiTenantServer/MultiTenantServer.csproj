@@ -11,4 +11,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="images\blue\favicon\" />
+    <Folder Include="images\red\favicon\" />
+    <Folder Include="wwwroot\images\blue\favicon\" />
+    <Folder Include="wwwroot\images\red\favicon\" />
+  </ItemGroup>
+
 </Project>

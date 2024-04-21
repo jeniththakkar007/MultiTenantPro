@@ -10,4 +10,9 @@ namespace MultiTenantServer
 
         public string? Summary { get; set; }
     }
+    public record Tenant(int Id, string Host, bool IsActive, string ThemeName);
+    public class SubdomainRequest
+    {
+        public string Subdomain { get; set; }
+    }
 }
